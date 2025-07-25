@@ -1,0 +1,28 @@
+* {
+  box-sizing: border;
+}
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 0;
+}
+
+.square {
+  height: 75px;
+  width: 75px;
+  border: none;
+  color: white;
+  background-color: black;
+  border-radius: 3px;
+  font-size: 2.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  height: 235px;
+  width: 235px;
+  gap: 5px;
+}
