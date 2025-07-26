@@ -5,6 +5,8 @@ body {
   font-family: sans-serif;
   margin: 20px;
   padding: 0;
+  display: flex;
+  justify-content: center;
 }
 
 .square {
@@ -25,4 +27,30 @@ body {
   height: 235px;
   width: 235px;
   gap: 5px;
+}
+
+.status {
+  margin-top: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: black;
+  max-width: fit-content;
+  color: yellow;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.game-info button {
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+  background-color: black;
+  color: white;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+.game {
+  display: flex;
 }
